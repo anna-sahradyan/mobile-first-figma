@@ -1,0 +1,144 @@
+@import "vars";
+@import "fonts";
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  min-width: 320px;
+  overflow-x: hidden;
+  font-family: "Roboto-Regular", "Arial", "sans-serif";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.container {
+  padding: 0 20px;
+}
+
+
+.header {
+  background-color: $accent;
+
+  .inner {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+}
+
+
+.logo_link {
+  margin-left: 8px;
+}
+
+
+.menu_header_btn {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  border-radius: 3px;
+  border-color: white;
+  border: none;
+
+  &::after {
+    content: "";
+    width: 12px;
+    height: 2px;
+    border-radius: 1px;
+    background-color: $accent;
+    position: absolute;
+    top: 15px;
+    left: 14px;
+    box-shadow: 0 4px 0 0 $accent, 0 8px 0 0 $accent;
+  }
+}
+
+/*slider part*/
+.head {
+  background-image: url(../img/slide.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  min-height: 193px;
+
+}
+
+.top-slider {
+  background: rgba(33, 33, 33, 0.5);
+
+  &__item {
+    color: #ffffff;
+    text-align: center;
+  }
+
+  &__title {
+    font-family: "RobotoCondensed-Regular";
+    line-height: 28px;
+    font-size: 28px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 36px 0 28px;
+    margin: 0 auto;
+    max-width: 243px;
+
+  }
+}
+
+.custom-dot {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #2B4074;
+  padding: 0;
+  margin: 0 10px;
+}
+
+.slick-active .custom-dot {
+  border: 1px solid #476E4D;
+  background: transparent;
+}
+.custom-prev-arrow {
+  width: 56px;
+  height: 56px;
+  img {
+    width: 20px;
+  }
+}
+
+.custom-next-arrow {
+  background-color: #ffffff;
+  width: 56px;
+  height: 56px;
+
+  img {
+    width: 20px;
+  }
+
+}
+
+
+
+@import "tablet-640";
+@import "tablet-768";
+@import "tablet-1024";
+@import "tablet-1440";
+
+
+
