@@ -1,5 +1,9 @@
 @import "vars";
 @import "fonts";
+@import "tablet-640";
+@import "tablet-768";
+@import "tablet-1024";
+@import "tablet-1440";
 
 html {
   box-sizing: border-box;
@@ -37,27 +41,25 @@ body {
   }
 }
 
-
 .logo_link {
   margin-left: 8px;
 }
-
 
 .menu_header_btn {
   position: relative;
   width: 40px;
   height: 40px;
   border-radius: 3px;
-  border-color: white;
+  background-color: #ffffff;
   border: none;
 
   &::after {
+    position: absolute;
     content: "";
     width: 12px;
     height: 2px;
     border-radius: 1px;
     background-color: $accent;
-    position: absolute;
     top: 15px;
     left: 14px;
     box-shadow: 0 4px 0 0 $accent, 0 8px 0 0 $accent;
@@ -80,9 +82,11 @@ body {
   &__item {
     color: #ffffff;
     text-align: center;
+    min-height: 193px;
   }
 
   &__title {
+    position: relative;
     font-family: "RobotoCondensed-Regular";
     line-height: 28px;
     font-size: 28px;
@@ -92,6 +96,32 @@ body {
     margin: 0 auto;
     max-width: 243px;
 
+    &::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      height: 8px;
+      width: 61px;
+      margin: 0 auto;
+      background-color: $text-color;
+    }
+
+  }
+
+  &__btn {
+    display: none;
+    width: 200px;
+    height: 50px;
+    background-color: $accent;
+    border: none;
+    padding: 16px 45px;
+    border-radius: 3px;
+    color: $bg-color;
+    font-size: 18px;
+    line-height: 18px;
+    margin: 0 auto 113px;
   }
 }
 
@@ -99,13 +129,13 @@ body {
   position: absolute;
   display: flex;
   justify-content: center;
-  bottom: 20px;
+  bottom: 40px;
   left: 0;
   right: 0;
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  background-color: #2B4074;
+  background-color: $accent;
   padding: 0;
   margin: 0 10px;
 }
@@ -114,31 +144,32 @@ body {
   border: 1px solid #476E4D;
   background: transparent;
 }
-.custom-prev-arrow {
+
+.custom-arrow {
   width: 56px;
   height: 56px;
-  img {
-    width: 20px;
+  position: absolute;
+  border: none;
+  right: 0;
+  z-index: 1;
+
+  &.prev {
+    background-color: $accent;
+    top:calc(50% - 56px);
+    img{
+      transform: rotate(180deg);
+    }
+  }
+  &.next {
+    background-color: $bg-color;
+    bottom:calc(50% - 56px);
+
+
   }
 }
 
-.custom-next-arrow {
-  background-color: #ffffff;
-  width: 56px;
-  height: 56px;
-
-  img {
-    width: 20px;
-  }
-
-}
 
 
-
-@import "tablet-640";
-@import "tablet-768";
-@import "tablet-1024";
-@import "tablet-1440";
 
 
 

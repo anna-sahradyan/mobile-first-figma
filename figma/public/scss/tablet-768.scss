@@ -1,8 +1,11 @@
 @media (min-width: 768px) {
-  .container {
-    padding: 0 40px;
+  .header{
+    .container {
+      padding: 0 40px;
+    }
+    .logo_link {
+      margin-left: 0;
+    }
   }
-  .logo_link {
-    margin-left: 0;
-  }
+
 }

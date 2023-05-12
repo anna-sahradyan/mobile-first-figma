@@ -1,17 +1,45 @@
+@import "vars";
 
 @media (min-width: 640px) {
-  .container {
-    padding: 0 30px;
-  }
-  .logo_link {
-    margin-left: 14px;
-  }
   .header {
+    .container {
+      padding: 0 30px;
+    }
+
+    .logo_link {
+      margin-left: 14px;
+    }
+
     .inner {
       min-height: 100px;
     }
   }
+  .head {
+    min-height: 386px;
+    background-position: -162px center;
 
+    .top-slider {
+      &__item {
+        min-width: 386px;
+      }
+
+      &__title {
+        font-size: 60px;
+        line-height: 60px;
+        padding: 50px 0 15px;
+        margin: 0 auto 30px;
+        max-width: 520px;
+      }
+
+      &__btn {
+        display: block;
+      }
+
+      .custom-dot {
+        bottom: 50px;
+      }
+    }
+  }
 }
 
 

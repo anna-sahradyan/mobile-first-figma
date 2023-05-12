@@ -1,9 +1,12 @@
 
 @media (min-width: 1440px) {
-  .container {
-    max-width: 1320px;
+  .header{
+    .container {
+      max-width: 1320px;
+    }
+    .menu_header_btn {
+      margin-right: 90px;
+    }
   }
-  .menu_header_btn {
-    margin-right: 90px;
-  }
+
 }
