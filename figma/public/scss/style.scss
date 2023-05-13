@@ -1,9 +1,6 @@
 @import "vars";
 @import "fonts";
-@import "tablet-640";
-@import "tablet-768";
-@import "tablet-1024";
-@import "tablet-1440";
+
 
 html {
   box-sizing: border-box;
@@ -123,6 +120,9 @@ body {
     line-height: 18px;
     margin: 0 auto 113px;
   }
+  &__text{
+    display: none;
+  }
 }
 
 .custom-dot {
@@ -170,6 +170,9 @@ body {
 
 
 
-
+@import "tablet-640";
+@import "tablet-768";
+@import "tablet-1024";
+@import "tablet-1440";
 
 

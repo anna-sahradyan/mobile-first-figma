@@ -1,12 +1,31 @@
+@import "vars";
 
 @media (min-width: 1440px) {
-  .header{
+  .header {
     .container {
       max-width: 1320px;
     }
+
     .menu_header_btn {
       margin-right: 90px;
     }
   }
+  .top-slider{
+    &__item{
+      min-height: 668px;
+    }
+    &__title{
+      padding: 107px;
+      font-size: 96px;
+      line-height: 96px;
+      letter-spacing: 2px;
+      max-width:865px;
+    }
+    &__text{
+      font-size: 24px;
+      line-height: 26px;
+      max-width:886px;
+    }
 
+  }
 }

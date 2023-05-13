@@ -38,7 +38,11 @@ const SliderComponent = () => {
                 <div className="top-slider">
                     <Slider {...settings}>
                         {dataWorld.map((item,index)=>(
-                            <div className="top-slider__item" key={`${item}_${index}`}><h3 className={"top-slider__title"}>{item.title}</h3> <button className="top-slider__btn">ПОДРОБНЕЕ</button></div>))}
+                            <div className="top-slider__item" key={`${item}_${index}`}><h3 className={"top-slider__title"}>{item.title}</h3>
+                                <p className="top-slider__text">
+                                    Di Gі - это диджитал агентство полного цикла, направленное на самый лучший результат наших клиентов в маркетинге, продажах и управлении
+                                </p>
+                                <button className="top-slider__btn">ПОДРОБНЕЕ</button></div>))}
 
                     </Slider>
 

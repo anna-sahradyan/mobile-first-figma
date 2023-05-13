@@ -1,11 +1,9 @@
 @import "vars";
-
 @media (min-width: 640px) {
   .header {
     .container {
       padding: 0 30px;
     }
-
     .logo_link {
       margin-left: 14px;
     }
@@ -16,7 +14,6 @@
   }
   .head {
     min-height: 386px;
-    background-position: -162px center;
 
     .top-slider {
       &__item {
@@ -33,6 +30,7 @@
 
       &__btn {
         display: block;
+        font-weight: 500;
       }
 
       .custom-dot {
