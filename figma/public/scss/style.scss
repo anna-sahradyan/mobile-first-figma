@@ -120,7 +120,8 @@ body {
     line-height: 18px;
     margin: 0 auto 113px;
   }
-  &__text{
+
+  &__text {
     display: none;
   }
 }
@@ -155,20 +156,54 @@ body {
 
   &.prev {
     background-color: $accent;
-    top:calc(50% - 56px);
-    img{
+    top: calc(50% - 56px);
+
+    img {
       transform: rotate(180deg);
     }
   }
+
   &.next {
     background-color: $bg-color;
-    bottom:calc(50% - 56px);
+    bottom: calc(50% - 56px);
 
 
   }
 }
 
+/*part Call component*/
+.call {
+  background-color: $accent;
+  padding: 40px 0;
+  color: #ffffff;
+  text-align: center;
+  &__title {
+    @extend %roboto-500;
+    font-size: 24px;
+    line-height: 24px;
+    margin-bottom: 15px;
+  }
+  &__text {
+    margin-bottom: 40px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 20px;
+    width: 580px;
+    height: 42px;
+  }
 
+  &__btn {
+    padding: 16px 15px;
+    background-color: $bg-color;
+    color: $accent;
+    @extend %roboto-500;
+    font-size: 18px;
+    border-radius: 3px;
+    border:none;
+    text-transform: uppercase;
+
+  }
+}
 
 @import "tablet-640";
 @import "tablet-768";

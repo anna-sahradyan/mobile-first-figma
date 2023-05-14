@@ -1,27 +1,31 @@
 @import "vars";
 
 @media (min-width: 768px) {
-  .header{
+  .header {
     .container {
       padding: 0 40px;
     }
+
     .logo_link {
       margin-left: 0;
     }
   }
-  .top-slider{
-    &__item{
+  .top-slider {
+    &__item {
       min-height: 465px;
     }
-    &__title{
-     padding: 87px 0 0;
+
+    &__title {
+      padding: 87px 0 0;
       margin: 0 auto 0;
-      &::after{
+
+      &::after {
         display: none;
       }
 
     }
-    &__text{
+
+    &__text {
       display: block;
       padding: 25px 0 32px;
       font-family: "RobotoCondensed-Regular";
@@ -30,6 +34,24 @@
       font-weight: 400;
       max-width: 587px;
       margin: 0 auto;
+    }
+  }
+  .call {
+    text-align: left;
+    &__inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+    }
+    &__box {
+      max-width: 427px;
+    }
+    &__text{
+      width: 427px;
+      height: 63px;
+      margin-bottom: 0;
+
     }
   }
 
