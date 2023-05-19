@@ -38,16 +38,18 @@
   }
   .call {
     text-align: left;
+
     &__inner {
       display: flex;
       justify-content: space-between;
       align-items: center;
-
     }
+
     &__box {
       max-width: 427px;
     }
-    &__text{
+
+    &__text {
       width: 427px;
       height: 63px;
       margin-bottom: 0;

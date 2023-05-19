@@ -34,9 +34,23 @@
   font-style: normal;
   src: url("../fonts/Dosis-Light.woff2") format("woff2"), url("../fonts/Dosis-Light.woff") format("woff"); }
 
+@font-face {
+  font-family: "Dosis-Regular";
+  font-weight: 400;
+  font-style: normal;
+  src: url("../fonts/Dosis-Regular.woff2") format("woff2"), url("../fonts/Dosis-Regular.woff") format("woff"); }
+
+.title {
+  font-family: "RobotoCondensed-Regular";
+  font-weight: 400; }
+
 .call__title, .call__btn {
   font-family: "Roboto-Medium";
   font-weight: 500; }
+
+.services__item-title, .services__item-link {
+  font-family: "RobotoCondensed-Bold";
+  font-weight: 700; }
 
 @font-face {
   font-family: "Roboto-Regular";
@@ -74,6 +88,108 @@
   font-style: normal;
   src: url("../fonts/Dosis-Light.woff2") format("woff2"), url("../fonts/Dosis-Light.woff") format("woff"); }
 
+@font-face {
+  font-family: "Dosis-Regular";
+  font-weight: 400;
+  font-style: normal;
+  src: url("../fonts/Dosis-Regular.woff2") format("woff2"), url("../fonts/Dosis-Regular.woff") format("woff"); }
+
+@font-face {
+  font-family: "Roboto-Regular";
+  font-weight: 400;
+  font-style: normal;
+  src: url("../fonts/Roboto-Regular.woff2") format("woff2"), url("../fonts/Roboto-Regular.woff") format("woff"); }
+
+@font-face {
+  font-family: "Roboto-Medium";
+  font-weight: 500;
+  font-style: normal;
+  src: url("../fonts/Roboto-Medium.woff2") format("woff2"), url("../fonts/Roboto-Medium.woff") format("woff"); }
+
+@font-face {
+  font-family: "RobotoCondensed-Bold";
+  font-weight: 700;
+  font-style: normal;
+  src: url("../fonts/RobotoCondensed-Bold.woff2") format("woff2"), url("../fonts/RobotoCondensed-Bold.woff") format("woff"); }
+
+@font-face {
+  font-family: "RobotoCondensed-Regular";
+  font-weight: 400;
+  font-style: normal;
+  src: url("../fonts/RobotoCondensed-Regular.woff2") format("woff2"), url("../fonts/RobotoCondensed-Regular.woff") format("woff"); }
+
+@font-face {
+  font-family: "Dosis-Medium";
+  font-weight: 500;
+  font-style: normal;
+  src: url("../fonts/Dosis-Medium.woff2") format("woff2"), url("../fonts/RobotoCondensed-Bold.woff") format("woff"); }
+
+@font-face {
+  font-family: "Dosis-Light";
+  font-weight: 300;
+  font-style: normal;
+  src: url("../fonts/Dosis-Light.woff2") format("woff2"), url("../fonts/Dosis-Light.woff") format("woff"); }
+
+@font-face {
+  font-family: "Dosis-Regular";
+  font-weight: 400;
+  font-style: normal;
+  src: url("../fonts/Dosis-Regular.woff2") format("woff2"), url("../fonts/Dosis-Regular.woff") format("woff"); }
+
+.title {
+  font-family: "RobotoCondensed-Regular";
+  font-weight: 400; }
+
+.call__title, .call__btn {
+  font-family: "Roboto-Medium";
+  font-weight: 500; }
+
+.services__item-title, .services__item-link {
+  font-family: "RobotoCondensed-Bold";
+  font-weight: 700; }
+
+@font-face {
+  font-family: "Roboto-Regular";
+  font-weight: 400;
+  font-style: normal;
+  src: url("../fonts/Roboto-Regular.woff2") format("woff2"), url("../fonts/Roboto-Regular.woff") format("woff"); }
+
+@font-face {
+  font-family: "Roboto-Medium";
+  font-weight: 500;
+  font-style: normal;
+  src: url("../fonts/Roboto-Medium.woff2") format("woff2"), url("../fonts/Roboto-Medium.woff") format("woff"); }
+
+@font-face {
+  font-family: "RobotoCondensed-Bold";
+  font-weight: 700;
+  font-style: normal;
+  src: url("../fonts/RobotoCondensed-Bold.woff2") format("woff2"), url("../fonts/RobotoCondensed-Bold.woff") format("woff"); }
+
+@font-face {
+  font-family: "RobotoCondensed-Regular";
+  font-weight: 400;
+  font-style: normal;
+  src: url("../fonts/RobotoCondensed-Regular.woff2") format("woff2"), url("../fonts/RobotoCondensed-Regular.woff") format("woff"); }
+
+@font-face {
+  font-family: "Dosis-Medium";
+  font-weight: 500;
+  font-style: normal;
+  src: url("../fonts/Dosis-Medium.woff2") format("woff2"), url("../fonts/RobotoCondensed-Bold.woff") format("woff"); }
+
+@font-face {
+  font-family: "Dosis-Light";
+  font-weight: 300;
+  font-style: normal;
+  src: url("../fonts/Dosis-Light.woff2") format("woff2"), url("../fonts/Dosis-Light.woff") format("woff"); }
+
+@font-face {
+  font-family: "Dosis-Regular";
+  font-weight: 400;
+  font-style: normal;
+  src: url("../fonts/Dosis-Regular.woff2") format("woff2"), url("../fonts/Dosis-Regular.woff") format("woff"); }
+
 html {
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
@@ -90,10 +206,38 @@ body {
   font-family: "Roboto-Regular", "Arial", "sans-serif";
   font-weight: 400;
   font-size: 16px;
-  line-height: 18px; }
+  line-height: 18px;
+  color: #9B9B9B; }
+
+.p {
+  padding: 0; }
 
 .container {
   padding: 0 20px; }
+
+button {
+  padding: 0;
+  cursor: pointer; }
+
+a {
+  text-decoration: none;
+  color: inherit; }
+
+.title {
+  line-height: 28px;
+  font-size: 24px;
+  position: relative;
+  padding-bottom: 28px; }
+  .title::after {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 8px;
+    background-color: #2B4074;
+    bottom: 0;
+    margin: 0 auto;
+    right: 0;
+    left: 0; }
 
 .header {
   background-color: #2B4074; }
@@ -210,6 +354,7 @@ body {
   right: 0;
   z-index: 1; }
   .custom-arrow.prev {
+    cursor: pointer;
     background-color: #2B4074;
     top: calc(50% - 56px); }
     .custom-arrow.prev img {
@@ -217,6 +362,7 @@ body {
       -ms-transform: rotate(180deg);
       transform: rotate(180deg); }
   .custom-arrow.next {
+    cursor: pointer;
     background-color: #F9F6E5;
     bottom: calc(50% - 56px); }
 
@@ -234,9 +380,7 @@ body {
     margin-bottom: 40px;
     font-weight: 300;
     font-size: 18px;
-    line-height: 20px;
-    width: 580px;
-    height: 42px; }
+    line-height: 20px; }
   .call__btn {
     padding: 16px 15px;
     background-color: #F9F6E5;
@@ -244,6 +388,71 @@ body {
     font-size: 18px;
     border-radius: 3px;
     border: none;
+    text-transform: uppercase; }
+
+/*services part*/
+.services {
+  padding: 25px 0 40px;
+  text-align: center; }
+  .services__title {
+    margin-bottom: 47px;
+    color: #2B4074; }
+  .services__desc {
+    line-height: 24px;
+    font-size: 20px;
+    color: #4A4A4A;
+    margin-bottom: 21px; }
+  .services__text {
+    font-size: 15px;
+    line-height: 17px;
+    color: #797979;
+    margin-bottom: 40px; }
+  .services__item-title {
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 2px;
+    color: #4A4A4A; }
+  .services__item {
+    min-height: 310px;
+    border: 1px solid #F9F6E5;
+    border-bottom: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 0 18px; }
+    .services__item:last-child {
+      border-bottom: 1px solid #F9F6E5; }
+    .services__item:hover .services__item-text,
+    .services__item:hover .services__item-link {
+      display: block; }
+    .services__item:hover .services__item-title {
+      margin-bottom: 30px; }
+    .services__item:hover .services__item-inner {
+      border: 4px solid #2B4074;
+      margin: 18px 0;
+      padding: 25px 20px 5px;
+      min-height: 277px; }
+    .services__item:hover .services__item-img {
+      margin-bottom: 14px; }
+  .services__item-img {
+    margin-bottom: 30px; }
+  .services__item-text {
+    display: none;
+    margin-bottom: 17px; }
+  .services__item-link {
+    display: none;
+    letter-spacing: 2px;
+    color: #2B4074;
     text-transform: uppercase; }
 
 @font-face {
@@ -282,9 +491,23 @@ body {
   font-style: normal;
   src: url("../fonts/Dosis-Light.woff2") format("woff2"), url("../fonts/Dosis-Light.woff") format("woff"); }
 
+@font-face {
+  font-family: "Dosis-Regular";
+  font-weight: 400;
+  font-style: normal;
+  src: url("../fonts/Dosis-Regular.woff2") format("woff2"), url("../fonts/Dosis-Regular.woff") format("woff"); }
+
+.title {
+  font-family: "RobotoCondensed-Regular";
+  font-weight: 400; }
+
 .call__title, .call__btn {
   font-family: "Roboto-Medium";
   font-weight: 500; }
+
+.services__item-title, .services__item-link {
+  font-family: "RobotoCondensed-Bold";
+  font-weight: 700; }
 
 @media (min-width: 640px) {
   .header .container {
@@ -345,9 +568,23 @@ body {
   font-style: normal;
   src: url("../fonts/Dosis-Light.woff2") format("woff2"), url("../fonts/Dosis-Light.woff") format("woff"); }
 
+@font-face {
+  font-family: "Dosis-Regular";
+  font-weight: 400;
+  font-style: normal;
+  src: url("../fonts/Dosis-Regular.woff2") format("woff2"), url("../fonts/Dosis-Regular.woff") format("woff"); }
+
+.title {
+  font-family: "RobotoCondensed-Regular";
+  font-weight: 400; }
+
 .call__title, .call__btn {
   font-family: "Roboto-Medium";
   font-weight: 500; }
+
+.services__item-title, .services__item-link {
+  font-family: "RobotoCondensed-Bold";
+  font-weight: 700; }
 
 @media (min-width: 768px) {
   .header .container {
@@ -425,9 +662,23 @@ body {
   font-style: normal;
   src: url("../fonts/Dosis-Light.woff2") format("woff2"), url("../fonts/Dosis-Light.woff") format("woff"); }
 
+@font-face {
+  font-family: "Dosis-Regular";
+  font-weight: 400;
+  font-style: normal;
+  src: url("../fonts/Dosis-Regular.woff2") format("woff2"), url("../fonts/Dosis-Regular.woff") format("woff"); }
+
+.title {
+  font-family: "RobotoCondensed-Regular";
+  font-weight: 400; }
+
 .call__title, .call__btn {
   font-family: "Roboto-Medium";
   font-weight: 500; }
+
+.services__item-title, .services__item-link {
+  font-family: "RobotoCondensed-Bold";
+  font-weight: 700; }
 
 @media (min-width: 1024px) {
   .header .container {
@@ -443,7 +694,9 @@ body {
   .top-slider__item {
     min-height: 623px; }
   .top-slider .custom-dots {
-    bottom: 85px; } }
+    bottom: 85px; }
+  .call__box {
+    max-width: 695px; } }
 
 @font-face {
   font-family: "Roboto-Regular";
@@ -481,9 +734,23 @@ body {
   font-style: normal;
   src: url("../fonts/Dosis-Light.woff2") format("woff2"), url("../fonts/Dosis-Light.woff") format("woff"); }
 
+@font-face {
+  font-family: "Dosis-Regular";
+  font-weight: 400;
+  font-style: normal;
+  src: url("../fonts/Dosis-Regular.woff2") format("woff2"), url("../fonts/Dosis-Regular.woff") format("woff"); }
+
+.title {
+  font-family: "RobotoCondensed-Regular";
+  font-weight: 400; }
+
 .call__title, .call__btn {
   font-family: "Roboto-Medium";
   font-weight: 500; }
+
+.services__item-title, .services__item-link {
+  font-family: "RobotoCondensed-Bold";
+  font-weight: 700; }
 
 @media (min-width: 1440px) {
   .header .container {
@@ -501,4 +768,19 @@ body {
   .top-slider__text {
     font-size: 24px;
     line-height: 26px;
-    max-width: 886px; } }
+    max-width: 886px; }
+  .top-slider .custom-arrow {
+    width: 70px;
+    height: 70px; }
+    .top-slider .custom-arrow.prev {
+      top: calc(50% - 70px); }
+      .top-slider .custom-arrow.prev img {
+        -webkit-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+        transform: rotate(180deg); }
+    .top-slider .custom-arrow.next {
+      bottom: calc(50% - 70px); }
+  .call__inner {
+    padding: 0 80px; }
+  .call__box {
+    max-width: 796px; } }

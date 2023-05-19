@@ -28,9 +28,31 @@
       line-height: 26px;
       max-width: 886px;
     }
+    .custom-arrow {
+      width: 70px;
+      height: 70px;
+      &.prev {
+        top: calc(50% - 70px);
+
+        img {
+          transform: rotate(180deg);
+        }
+      }
+
+      &.next {
+        bottom: calc(50% - 70px);
+
+
+      }
+    }
 
   }
   .call {
-
+    &__inner {
+      padding: 0 80px;
+    }
+    &__box{
+      max-width: 796px;
+    }
   }
 }
