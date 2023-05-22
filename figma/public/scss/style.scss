@@ -198,8 +198,8 @@
   }
 
   &__desc {
-    line-height: 24px;
     font-size: 20px;
+    line-height: 24px;
     color: $text-color;
     margin-bottom: 21px;
   }
@@ -209,15 +209,6 @@
     line-height: 17px;
     color: #797979;
     margin-bottom: 40px;
-  }
-
-  &__item-title {
-    font-size: 16px;
-    line-height: 19px;
-    letter-spacing: 2px;
-    color: $text-color;
-    @extend %robotoCondensed-700;
-
   }
 
   &__item {
@@ -258,7 +249,14 @@
     }
 
   }
+  &__item-title {
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 2px;
+    color: $text-color;
+    @extend %robotoCondensed-700;
 
+  }
   &__item-img {
     margin-bottom: 30px;
 

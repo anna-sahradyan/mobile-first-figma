@@ -239,6 +239,11 @@ a {
     right: 0;
     left: 0; }
 
+@media (min-width: 640px) {
+  .title {
+    font-size: 48px;
+    line-height: 56px; } }
+
 .header {
   background-color: #2B4074; }
   .header .inner {
@@ -398,8 +403,8 @@ a {
     margin-bottom: 47px;
     color: #2B4074; }
   .services__desc {
-    line-height: 24px;
     font-size: 20px;
+    line-height: 24px;
     color: #4A4A4A;
     margin-bottom: 21px; }
   .services__text {
@@ -407,11 +412,6 @@ a {
     line-height: 17px;
     color: #797979;
     margin-bottom: 40px; }
-  .services__item-title {
-    font-size: 16px;
-    line-height: 19px;
-    letter-spacing: 2px;
-    color: #4A4A4A; }
   .services__item {
     min-height: 310px;
     border: 1px solid #F9F6E5;
@@ -444,6 +444,11 @@ a {
       min-height: 277px; }
     .services__item:hover .services__item-img {
       margin-bottom: 14px; }
+  .services__item-title {
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 2px;
+    color: #4A4A4A; }
   .services__item-img {
     margin-bottom: 30px; }
   .services__item-text {
@@ -509,6 +514,198 @@ a {
   font-family: "RobotoCondensed-Bold";
   font-weight: 700; }
 
+@font-face {
+  font-family: "Roboto-Regular";
+  font-weight: 400;
+  font-style: normal;
+  src: url("../fonts/Roboto-Regular.woff2") format("woff2"), url("../fonts/Roboto-Regular.woff") format("woff"); }
+
+@font-face {
+  font-family: "Roboto-Medium";
+  font-weight: 500;
+  font-style: normal;
+  src: url("../fonts/Roboto-Medium.woff2") format("woff2"), url("../fonts/Roboto-Medium.woff") format("woff"); }
+
+@font-face {
+  font-family: "RobotoCondensed-Bold";
+  font-weight: 700;
+  font-style: normal;
+  src: url("../fonts/RobotoCondensed-Bold.woff2") format("woff2"), url("../fonts/RobotoCondensed-Bold.woff") format("woff"); }
+
+@font-face {
+  font-family: "RobotoCondensed-Regular";
+  font-weight: 400;
+  font-style: normal;
+  src: url("../fonts/RobotoCondensed-Regular.woff2") format("woff2"), url("../fonts/RobotoCondensed-Regular.woff") format("woff"); }
+
+@font-face {
+  font-family: "Dosis-Medium";
+  font-weight: 500;
+  font-style: normal;
+  src: url("../fonts/Dosis-Medium.woff2") format("woff2"), url("../fonts/RobotoCondensed-Bold.woff") format("woff"); }
+
+@font-face {
+  font-family: "Dosis-Light";
+  font-weight: 300;
+  font-style: normal;
+  src: url("../fonts/Dosis-Light.woff2") format("woff2"), url("../fonts/Dosis-Light.woff") format("woff"); }
+
+@font-face {
+  font-family: "Dosis-Regular";
+  font-weight: 400;
+  font-style: normal;
+  src: url("../fonts/Dosis-Regular.woff2") format("woff2"), url("../fonts/Dosis-Regular.woff") format("woff"); }
+
+@font-face {
+  font-family: "Roboto-Regular";
+  font-weight: 400;
+  font-style: normal;
+  src: url("../fonts/Roboto-Regular.woff2") format("woff2"), url("../fonts/Roboto-Regular.woff") format("woff"); }
+
+@font-face {
+  font-family: "Roboto-Medium";
+  font-weight: 500;
+  font-style: normal;
+  src: url("../fonts/Roboto-Medium.woff2") format("woff2"), url("../fonts/Roboto-Medium.woff") format("woff"); }
+
+@font-face {
+  font-family: "RobotoCondensed-Bold";
+  font-weight: 700;
+  font-style: normal;
+  src: url("../fonts/RobotoCondensed-Bold.woff2") format("woff2"), url("../fonts/RobotoCondensed-Bold.woff") format("woff"); }
+
+@font-face {
+  font-family: "RobotoCondensed-Regular";
+  font-weight: 400;
+  font-style: normal;
+  src: url("../fonts/RobotoCondensed-Regular.woff2") format("woff2"), url("../fonts/RobotoCondensed-Regular.woff") format("woff"); }
+
+@font-face {
+  font-family: "Dosis-Medium";
+  font-weight: 500;
+  font-style: normal;
+  src: url("../fonts/Dosis-Medium.woff2") format("woff2"), url("../fonts/RobotoCondensed-Bold.woff") format("woff"); }
+
+@font-face {
+  font-family: "Dosis-Light";
+  font-weight: 300;
+  font-style: normal;
+  src: url("../fonts/Dosis-Light.woff2") format("woff2"), url("../fonts/Dosis-Light.woff") format("woff"); }
+
+@font-face {
+  font-family: "Dosis-Regular";
+  font-weight: 400;
+  font-style: normal;
+  src: url("../fonts/Dosis-Regular.woff2") format("woff2"), url("../fonts/Dosis-Regular.woff") format("woff"); }
+
+.title {
+  font-family: "RobotoCondensed-Regular";
+  font-weight: 400; }
+
+.call__title, .call__btn {
+  font-family: "Roboto-Medium";
+  font-weight: 500; }
+
+.services__item-title, .services__item-link {
+  font-family: "RobotoCondensed-Bold";
+  font-weight: 700; }
+
+@font-face {
+  font-family: "Roboto-Regular";
+  font-weight: 400;
+  font-style: normal;
+  src: url("../fonts/Roboto-Regular.woff2") format("woff2"), url("../fonts/Roboto-Regular.woff") format("woff"); }
+
+@font-face {
+  font-family: "Roboto-Medium";
+  font-weight: 500;
+  font-style: normal;
+  src: url("../fonts/Roboto-Medium.woff2") format("woff2"), url("../fonts/Roboto-Medium.woff") format("woff"); }
+
+@font-face {
+  font-family: "RobotoCondensed-Bold";
+  font-weight: 700;
+  font-style: normal;
+  src: url("../fonts/RobotoCondensed-Bold.woff2") format("woff2"), url("../fonts/RobotoCondensed-Bold.woff") format("woff"); }
+
+@font-face {
+  font-family: "RobotoCondensed-Regular";
+  font-weight: 400;
+  font-style: normal;
+  src: url("../fonts/RobotoCondensed-Regular.woff2") format("woff2"), url("../fonts/RobotoCondensed-Regular.woff") format("woff"); }
+
+@font-face {
+  font-family: "Dosis-Medium";
+  font-weight: 500;
+  font-style: normal;
+  src: url("../fonts/Dosis-Medium.woff2") format("woff2"), url("../fonts/RobotoCondensed-Bold.woff") format("woff"); }
+
+@font-face {
+  font-family: "Dosis-Light";
+  font-weight: 300;
+  font-style: normal;
+  src: url("../fonts/Dosis-Light.woff2") format("woff2"), url("../fonts/Dosis-Light.woff") format("woff"); }
+
+@font-face {
+  font-family: "Dosis-Regular";
+  font-weight: 400;
+  font-style: normal;
+  src: url("../fonts/Dosis-Regular.woff2") format("woff2"), url("../fonts/Dosis-Regular.woff") format("woff"); }
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit; }
+
+body {
+  min-width: 320px;
+  overflow-x: hidden;
+  font-family: "Roboto-Regular", "Arial", "sans-serif";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: #9B9B9B; }
+
+.p {
+  padding: 0; }
+
+.container {
+  padding: 0 20px; }
+
+button {
+  padding: 0;
+  cursor: pointer; }
+
+a {
+  text-decoration: none;
+  color: inherit; }
+
+.title {
+  line-height: 28px;
+  font-size: 24px;
+  position: relative;
+  padding-bottom: 28px; }
+  .title::after {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 8px;
+    background-color: #2B4074;
+    bottom: 0;
+    margin: 0 auto;
+    right: 0;
+    left: 0; }
+
+@media (min-width: 640px) {
+  .title {
+    font-size: 48px;
+    line-height: 56px; } }
+
 @media (min-width: 640px) {
   .header .container {
     padding: 0 30px; }
@@ -530,7 +727,46 @@ a {
       display: block;
       font-weight: 500; }
     .head .top-slider .custom-dot {
-      bottom: 50px; } }
+      bottom: 50px; }
+  .services {
+    padding: 24px 0 0; }
+    .services__title {
+      margin-bottom: 20px;
+      padding-bottom: 0; }
+      .services__title::after {
+        display: none; }
+    .services__desc {
+      width: 559px;
+      font-size: 24px;
+      margin-bottom: 31px;
+      padding-bottom: 38px;
+      position: relative; }
+      .services__desc::after {
+        content: "";
+        position: absolute;
+        width: 100px;
+        height: 8px;
+        background-color: #2B4074;
+        bottom: 0;
+        margin: 0 auto;
+        right: 0;
+        left: 0; }
+    .services__text {
+      font-size: 18px;
+      line-height: 24px; }
+    .services__items {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      margin: 0 -30px; }
+    .services__item {
+      width: 50%; }
+      .services__item:nth-child(even) {
+        border-left: none; }
+      .services__item:last-child {
+        border-bottom: none; } }
 
 @font-face {
   font-family: "Roboto-Regular";
@@ -624,7 +860,30 @@ a {
     .call__text {
       width: 427px;
       height: 63px;
-      margin-bottom: 0; } }
+      margin-bottom: 0; }
+  .services {
+    padding: 50px 0 0; }
+    .services__title {
+      margin-bottom: 30px; }
+    .services__desc {
+      text-align: left;
+      width: 689px; }
+      .services__desc::after {
+        margin-left: 0; }
+    .services__text {
+      margin-bottom: 27px;
+      text-align: left; }
+    .services__items {
+      margin: 0 -40px; }
+    .services__item {
+      padding: 0 75px;
+      min-height: 334px; }
+      .services__item:hover {
+        padding: 0 18px; }
+        .services__item:hover .services__item-inner {
+          margin: 18px 0;
+          padding: 35px 60px 5px;
+          min-height: 288px; } }
 
 @font-face {
   font-family: "Roboto-Regular";

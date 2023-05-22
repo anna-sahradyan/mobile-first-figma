@@ -10,7 +10,7 @@ const Service = () => {
             <h4 className="services__title title">Сервис</h4>
             <p className="services__desc">От идеи до незабываемого и
                 измеримого результата</p>
-            <p className="services__text">Интеграция безупречного производства, передовых технологий и тщательного измерения производительности</p>
+            <p className="services__text">Интеграция безупречного производства,передовых технологий и тщательного измерения производительности</p>
 
         </div>
                         <div className="services__items">

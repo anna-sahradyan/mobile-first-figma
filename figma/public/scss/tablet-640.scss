@@ -1,4 +1,6 @@
 @import "vars";
+@import "fonts";
+@import "global";
 
 @media (min-width: 640px) {
   .header {
@@ -39,6 +41,64 @@
         bottom: 50px;
       }
     }
+  }
+  .services {
+    padding: 24px 0 0;
+
+    &__title {
+      margin-bottom: 20px;
+      padding-bottom: 0;
+
+      &::after {
+        display: none;
+      }
+    }
+
+    &__desc {
+      width: 559px;
+      font-size: 24px;
+      margin-bottom: 31px;
+      padding-bottom: 38px;
+      position: relative;
+
+      &::after {
+        content: "";
+        position: absolute;
+        width: 100px;
+        height: 8px;
+        background-color: $accent;
+        bottom: 0;
+        margin: 0 auto;
+        right: 0;
+        left: 0;
+
+      }
+    }
+
+    &__text {
+      font-size: 18px;
+      line-height: 24px;
+
+    }
+
+    &__items {
+      display: flex;
+      flex-wrap: wrap;
+      margin: 0 -30px;
+    }
+
+    &__item {
+      width: 50%;
+      &:nth-child(even){
+        border-left: none;
+      }
+      &:last-child {
+        border-bottom: none;
+      }
+
+    }
+
+
   }
 
 }
