@@ -55,4 +55,52 @@
       max-width: 796px;
     }
   }
+  .services {
+    padding:0;
+    &__inner{
+      display: flex;
+      justify-content: space-between;
+      margin: 0 -100px 0 -50px ;
+    }
+&__head{
+  margin-right: 100px;
+  min-width:350px;
+  max-width: 350px;
+}
+    &__title {
+      margin:90px 0  70px;
+      text-align: left;
+    }
+
+    &__desc {
+      max-width:393px;
+      padding-bottom: 38px;
+      margin-bottom: 35px;
+
+    }
+    &__text{
+      min-width:350px;
+    }
+
+&__items{
+  margin:0;
+}
+    &__item {
+      width: 230px;
+      padding: 0  5px;
+      height: 273px;
+      &:hover {
+        padding: 0 5px;
+        .services__item-inner {
+          margin: 5px 0;
+          padding:10px 3px 5px;
+          min-height: 255px;
+
+        }
+      }
+
+    }
+
+
+  }
 }

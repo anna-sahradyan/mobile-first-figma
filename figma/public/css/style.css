@@ -881,7 +881,6 @@ a {
       .services__item:hover {
         padding: 0 18px; }
         .services__item:hover .services__item-inner {
-          margin: 18px 0;
           padding: 35px 60px 5px;
           min-height: 288px; } }
 
@@ -955,7 +954,30 @@ a {
   .top-slider .custom-dots {
     bottom: 85px; }
   .call__box {
-    max-width: 695px; } }
+    max-width: 695px; }
+  .services {
+    padding: 52px 0 0; }
+    .services__title {
+      margin-bottom: 60px; }
+    .services__desc {
+      width: 611px;
+      padding-bottom: 46px;
+      margin-bottom: 40px; }
+    .services__text {
+      margin-bottom: 32px;
+      max-width: 608px; }
+    .services__item {
+      width: 25%;
+      padding: 0 17px;
+      min-height: 277px; }
+      .services__item:nth-child(2), .services__item:nth-child(6) {
+        border-right: none; }
+      .services__item:hover {
+        padding: 0 17px; }
+        .services__item:hover .services__item-inner {
+          margin: 10px 0;
+          padding: 21px 9px 5px;
+          min-height: 255px; } }
 
 @font-face {
   font-family: "Roboto-Regular";
@@ -1042,4 +1064,39 @@ a {
   .call__inner {
     padding: 0 80px; }
   .call__box {
-    max-width: 796px; } }
+    max-width: 796px; }
+  .services {
+    padding: 0; }
+    .services__inner {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      margin: 0 -100px 0 -50px; }
+    .services__head {
+      margin-right: 100px;
+      min-width: 350px;
+      max-width: 350px; }
+    .services__title {
+      margin: 90px 0  70px;
+      text-align: left; }
+    .services__desc {
+      max-width: 393px;
+      padding-bottom: 38px;
+      margin-bottom: 35px; }
+    .services__text {
+      min-width: 350px; }
+    .services__items {
+      margin: 0; }
+    .services__item {
+      width: 230px;
+      padding: 0  5px;
+      height: 273px; }
+      .services__item:hover {
+        padding: 0 5px; }
+        .services__item:hover .services__item-inner {
+          margin: 5px 0;
+          padding: 10px 3px 5px;
+          min-height: 255px; } }

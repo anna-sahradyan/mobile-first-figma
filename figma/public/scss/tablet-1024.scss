@@ -28,8 +28,54 @@
   }
 
   .call {
-  &__box{
-    max-width: 695px;
+    &__box {
+      max-width: 695px;
+    }
   }
+
+  .services {
+    padding: 52px 0 0;
+
+    &__title {
+      margin-bottom: 60px;
+
+    }
+
+    &__desc {
+      width: 611px;
+      padding-bottom: 46px;
+      margin-bottom: 40px;
+
+    }
+
+    &__text {
+      margin-bottom: 32px;
+      max-width: 608px;
+    }
+
+    &__item {
+      width: 25%;
+      padding: 0 17px;
+      min-height: 277px;
+
+      &:nth-child(2) ,
+      &:nth-child(6){
+        border-right: none;
+      }
+
+      &:hover {
+        padding: 0 17px;
+
+        .services__item-inner {
+          margin: 10px 0;
+          padding: 21px 9px 5px;
+          min-height: 255px;
+
+        }
+      }
+
+    }
+
+
   }
 }

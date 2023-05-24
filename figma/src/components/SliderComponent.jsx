@@ -15,6 +15,12 @@ const SliderComponent = () => {
         nextArrow: <CustomNextArrow/>,
         responsive: [
             {
+                breakpoint: 1440,
+                settings: {
+
+                },
+            },
+            {
                 breakpoint: 1024,
                 settings: {
                 }
@@ -22,12 +28,10 @@ const SliderComponent = () => {
             {
                 breakpoint: 640,
                 settings: {
-                    nextArrow:false,
-                    prevArrow:false,
+                    },
 
-
-                }
             },
+
 
         ],
 
